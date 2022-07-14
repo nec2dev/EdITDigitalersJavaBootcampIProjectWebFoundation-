@@ -17,7 +17,7 @@
                 <a href="#">Inicio</a>
                 <a href="#servicios">servicios</a>
                 <a href="#contacto">contacto</a>
-                <a target="_blank" href="https://www.educacionit.com/">educacionIT</a>
+                <!-- <li><a target="_blank" href="https://www.educacionit.com/">educacionIT</a></li> -->
             </li>
         </ul>
     </nav>
@@ -30,7 +30,7 @@
     </header>
     <main>
         <section>
-            <img src="./img/foto.png" alt="foto wwwapas">
+            <img src="./img/foto.png" alt="imagen wwwwapas">
             <h3>¡Hola! Somos SOFI & JULIA,</h3>
             <p>las social media managers, las creadoras de contenido, las copywriters, las generadoras de leads, las
                 diseñadoras, las estrategas en marketing digital, las potenciadoras de ventas, el posicionamiento de tu
@@ -42,26 +42,47 @@
                 producto.<strong>¡Aumentá tu presencia digital y generá nuevas ventas y contactos!</strong>
             </p>
         </section>
-        <section>
-            <h4>servicios</h4>
-            <a id="servicios"></a>
-            <ol>
-                <li>Análisis de perfil (Benchmarking)</li>
-                <li>Revisión y activación de canales</li>
-                <li>Gestión, creación y diseño de contenido</li>
-                <li>Repuestas a mensajes y consultas</li>
-                <li>Segmentación de promociones según el público objetivo de la pauta publicitaria</li>
-                <li>Diagramamos un calendario que se ajuste a los objetivos de la empresa</li>
-                <li>¡Empezamos a comunicar!</li>
-            </ol>
-        </section>
+        <div id="servicios">
+            <section>
+                <h4>servicios</h4>
+                <img src="./img/img-servicios.png" alt="imagen servicios">
+                <ol>
+                    <li>Análisis de perfil (Benchmarking)</li>
+                    <li>Revisión y activación de canales</li>
+                    <li>Gestión, creación y diseño de contenido</li>
+                    <li>Repuestas a mensajes y consultas</li>
+                    <li>Segmentación de promociones según el público objetivo de la pauta publicitaria</li>
+                    <li>Diagramamos un calendario que se ajuste a los objetivos de la empresa</li>
+                    <li>¡Empezamos a comunicar!</li>
+                </ol>
+            </section>
+        </div>
         <section>
             <h4>¿Querés que nos contactemos con vos?</h4>
             <a id="contacto"></a>
-            <p>Envianos tu consulta >>
-            </p>
+            <p>Envianos tu consulta >></p>
+            <form method="POST" action="codigo.php">
+                <label for="">Nombre<span>*</span><br>
+                    <input name="nombre" required type="text">
+                </label><br>
+                <label for="">Email<span>*</span><br>
+                    <input name="email" required type="email">
+                </label><br>
+                <label for="">Mensaje<span>*</span><br>
+                    <textarea required name="comentarios" id="" cols="30" rows="10"></textarea>
+                </label><br>
+                <div>
+                    <input type="submit" value="Enviar consulta">
+                    <input type="reset" value="Borrar">
+                </div>
+            </form>
         </section>
-        <aside></aside>
+        <aside>
+            <a href="https://www.instagram.com/"><img src="./img/instagram-icon.png" alt="instagram link"></a>
+            <a href="https://dribbble.com/"><img src="./img/dribbble-icon.png" alt="dribble link"></a>
+            <a href="https://www.linkedin.com/feed/"><img src="./img/linkedin-icon.png" alt="linkedin link"></a>
+            <a href="https://www.facebook.com/"><img src="./img/facebook-icon.png" alt="facebook link"></a>
+        </aside>
         <footer>
             <h1>wwwapas</h1>
             <a href="mailto: wwwapas_sm@gmail.com">wwwapas_sm@gmail.com</a>

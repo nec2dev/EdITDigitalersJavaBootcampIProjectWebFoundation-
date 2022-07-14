@@ -1,23 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 90%;
+    font: 400;
+    font-size: 24px;
     background-color: #F2F2F2;
+    color: #333;
     margin: 0;
+}
+
+footer, main, header, aside {
+    width: 100%;
+}
+
+span {
+    color: red;
 }
 
 nav {
     width: 100%;
     border-top: 2px solid rgb(252,238,33);
+    padding: 20px;
 }
 
 nav h1 {
     font-size: 3.5em;
+    margin-right: auto;
 }
-nav ul li {
-    list-style-type: none;
+
+nav ul {
+    list-style: none;
+}
+
+nav a, footer a {
+    margin-left: 20px;
+    color: #7a7a7a;
+    text-decoration: none;
+}
+
+nav a {
+    text-transform: capitalize;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+header img {
+    width: 70%;
+    margin-left: 30%;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 41px;
+}
+
+main {
+    font-size: 21px;
 }
 
 h1 {
@@ -34,14 +76,14 @@ h1 strong, nav h1 {
 }
 
 h2 {
-    font-weight: 400; 
+    font-weight: none; 
     font-size: 26.66px;
     background-color: rgb(252,238,33);;
 }
 
 h3 { 
     font-weight: 900;
-    font-size: 2.66em;
+    font-size: 26px;
 }
 
 h1, h2, h3, h4{
@@ -53,8 +95,17 @@ h2, h3{
 }
 
 h4 {
+    margin: 0;
     font-weight: 700;
     font-size: 4.25em;
+    color: white;
+    background-color: black;
+    line-height: 100px;
+    padding: 10px;
+}
+
+section {
+    width: 45%;
 }
 
 p {
@@ -66,7 +117,48 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ol {
+    font-size: 2em;
+    font-weight: 400;
+    list-style-position: inside;
+}
+
+ol li {
+    margin-bottom: 6%;
+}
+
+form {
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    height: 40px;
+}
+
+input, textarea {
+    width: 100%;
+}
+
+aside img {
+    height: auto;
+    width: 50%;
+}
+
 footer h1{
+    height: 100px;
+    padding: 10px;
     font-size: 33px;
     font-family: 'Coiny', cursive;
+    background-color: #FCEE21;
 }
