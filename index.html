@@ -11,25 +11,25 @@
 
 <body>
     <nav>
-        <h1><a href="index.html">wwwapas</a></h1>
-        <ul>
-            <li>
+        <div class="barraNavegacion">
+            <h1><a href="index.html">wwwapas</a></h1>
+            <div class="links">
                 <a href="#">Inicio</a>
                 <a href="#servicios">servicios</a>
                 <a href="#contacto">contacto</a>
-                <!-- <li><a target="_blank" href="https://www.educacionit.com/">educacionIT</a></li> -->
-            </li>
-        </ul>
+                <a target="_blank" href="https://www.educacionit.com/">educacionIT</a>
+            </div>
+        </div>
     </nav>
     <header>
         <h1>somos<br><strong>wwwapas</strong></h1>
         <h2>social media managers |creadoras de contenido</h2>
-        <p>Nos encargamos de construir, gestionar y administrar la comunidad online de tu marca, empresa o
+        <p id="parrafo">Nos encargamos de construir, gestionar y administrar la comunidad online de tu marca, empresa o
             negocio.<strong>¡Creamos relaciones estables y duraderas con tus clientes! </strong>
         </p>
     </header>
     <main>
-        <section>
+        <section class="contenedor">
             <img src="./img/foto.png" alt="imagen wwwwapas">
             <h3>¡Hola! Somos SOFI & JULIA,</h3>
             <p>las social media managers, las creadoras de contenido, las copywriters, las generadoras de leads, las
@@ -43,7 +43,7 @@
             </p>
         </section>
         <div id="servicios">
-            <section>
+            <section class="contenedor">
                 <h4>servicios</h4>
                 <img src="./img/img-servicios.png" alt="imagen servicios">
                 <ol>
@@ -53,12 +53,12 @@
                     <li>Repuestas a mensajes y consultas</li>
                     <li>Segmentación de promociones según el público objetivo de la pauta publicitaria</li>
                     <li>Diagramamos un calendario que se ajuste a los objetivos de la empresa</li>
-                    <li>¡Empezamos a comunicar!</li>
+                    <li class="color">¡Empezamos a comunicar!</li>
                 </ol>
             </section>
         </div>
-        <section>
-            <h4>¿Querés que nos contactemos con vos?</h4>
+        <section class="contenedor">
+            <h4 id="enunciado">¿Querés que nos contactemos con vos?</h4>
             <a id="contacto"></a>
             <p>Envianos tu consulta >></p>
             <form method="POST" action="./php/codigo.php" enctype="multipart/form-data">
@@ -77,11 +77,13 @@
                 </div>
             </form>
         </section>
-        <aside>
-            <a href="https://www.instagram.com/"><img src="./img/instagram-icon.png" alt="instagram link"></a>
-            <a href="https://dribbble.com/"><img src="./img/dribbble-icon.png" alt="dribble link"></a>
-            <a href="https://www.linkedin.com/feed/"><img src="./img/linkedin-icon.png" alt="linkedin link"></a>
-            <a href="https://www.facebook.com/"><img src="./img/facebook-icon.png" alt="facebook link"></a>
+        <aside id="redes">
+            <div>
+                <a href="https://www.instagram.com/"><img src="./img/instagram-icon.png" alt="instagram link"></a>
+                <a href="https://dribbble.com/"><img src="./img/dribbble-icon.png" alt="dribble link"></a>
+                <a href="https://www.linkedin.com/feed/"><img src="./img/linkedin-icon.png" alt="linkedin link"></a>
+                <a href="https://www.facebook.com/"><img src="./img/facebook-icon.png" alt="facebook link"></a>
+            </div>
         </aside>
         <footer>
             <h1>wwwapas</h1>

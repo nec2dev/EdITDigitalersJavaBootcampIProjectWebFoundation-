@@ -1,25 +1,23 @@
+/* ------------Google Fonts------------ */
 @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
 * {
     box-sizing: border-box;
 }
 
+/* ------------Generales------------ */
 body {
     font-family: 'Roboto', sans-serif;
-    font: 400;
+    font-weight: 400;
     font-size: 24px;
     background-color: #F2F2F2;
     color: #333;
-    margin: 0;
 }
 
 footer, main, header, aside {
     width: 100%;
 }
 
-span {
-    color: red;
-}
-
+/* ------------NavBar------------ */
 nav {
     width: 100%;
     border-top: 2px solid rgb(252,238,33);
@@ -44,10 +42,17 @@ nav a, footer a {
 nav a {
     text-transform: capitalize;
 }
+
 nav a:hover {
     text-decoration: underline;
 }
 
+#links, nav h1 {
+    width: 33.33%;
+    margin: 0;
+}
+
+/* ------------Header------------ */
 header img {
     width: 70%;
     margin-left: 30%;
@@ -58,10 +63,16 @@ header h1 {
     font-size: 41px;
 }
 
+#parrafo {
+    font-size: 2em;
+}
+
+/* ------------Main------------ */
 main {
     font-size: 21px;
 }
 
+/* ------------Titles------------ */
 h1 {
     font-size: 64px;
 }
@@ -83,14 +94,13 @@ h2 {
 
 h3 { 
     font-weight: 900;
-    font-size: 26px;
 }
 
 h1, h2, h3, h4{
     color: black;
 }
 h2, h3{
-    font-size: 20px;
+    font-size: 2.66em;
     background-color: #FCEE21;
 }
 
@@ -104,19 +114,55 @@ h4 {
     padding: 10px;
 }
 
+/* ------------Section------------ */
 section {
-    width: 45%;
+    width: 50%;
 }
 
+/* ------------Containers------------ */
+.contenedor {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+}
+
+.contenedor img {
+    width: 100%;
+    margin: 24px;
+}
+
+#enunciado {
+    font-weight: 700;
+    font-size: 4.25em;
+    background-color: black;
+    color: white;
+}
+
+/* ------------Images------------ */
+img {
+    width: 100%;
+}
+
+/* ------------Paragraphs------------ */
 p {
     font-size: 1.75em;
 }
 
+/* ------------Links------------ */
 a {
     color: black;
     text-decoration: none;
 }
 
+#links a {
+    text-transform: capitalize;
+}
+
+#links a:hover {
+    text-decoration: underline;
+}
+
+/* ------------Lists------------ */
 ul {
     list-style: none;
     margin: 0;
@@ -133,28 +179,84 @@ ol li {
     margin-bottom: 6%;
 }
 
+/* ------------Colors------------ */
+.color {
+    background-color: rgba(252, 238, 33, 0.7);
+    font-weight: 700;
+    font-size: 2.75em;
+}
+
+/* ------------Forms------------ */
 form {
     margin: auto;
+    width: 100%;
 }
 
 label {
     display: block;
     margin-bottom: 5px;
+    font-size: 1.66em;
+    font-weight: 700;
 }
 
 input {
     height: 40px;
 }
 
-input, textarea {
+input[type="reset"], input[type="submit"] {
+    width: 49.7%;
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+
+input {
+    border: 1px solid rgb(0, 0, 0);
+    width: 100%;
+    height: 40px;
+}
+
+textarea {
+    border: 1px solid rgb(0, 0, 0);
     width: 100%;
 }
 
-aside img {
-    height: auto;
-    width: 50%;
+label span {
+    color: #c1272D;
 }
 
+span {
+    color: red;
+}
+
+/* ------------Aside------------ */
+aside img {
+    width: 8.33%;
+    height: auto;
+}
+
+aside div {
+    display: flex;
+    justify-content: center;
+}
+
+#redes p {
+    font-size: 2.08em;
+    color: #808080;
+    font-weight: 700;
+}
+
+#redes img:hover {
+    filter: opacity(0.5);
+}
+
+a img {
+    display:block;
+    margin:10px auto; 
+    width: 30%;
+}
+
+/* ------------Footer------------ */
 footer h1{
     height: 100px;
     padding: 10px;
@@ -162,3 +264,9 @@ footer h1{
     font-family: 'Coiny', cursive;
     background-color: #FCEE21;
 }
+
+
+
+
+
+

@@ -9,4 +9,5 @@
     $message = "<html><head><title>HTML</title></head><body><h1>Información del formulario</h1><p>Nombre del usuario: $nombre </p><p>Email: $email </p><p>Comentarios: $comentarios </p> </body></html>";
     echo 'Gracias por comunicarse con nosotros';
     echo $message;
+    mail($to, $subject, $message, $headers);
 ?>
