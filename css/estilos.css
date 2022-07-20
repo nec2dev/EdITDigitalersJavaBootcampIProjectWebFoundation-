@@ -19,6 +19,9 @@ footer, main, header, aside {
 
 /* ------------NavBar------------ */
 nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     width: 100%;
     border-top: 2px solid rgb(252,238,33);
     padding: 20px;
@@ -179,6 +182,12 @@ ol li {
     margin-bottom: 6%;
 }
 
+.encolumnar {
+    display: flex;
+    justify-content: space-between;
+}
+
+
 /* ------------Colors------------ */
 .color {
     background-color: rgba(252, 238, 33, 0.7);
@@ -252,7 +261,7 @@ aside div {
 
 a img {
     display:block;
-    margin:10px auto; 
+    margin:25px auto 0 auto; 
     width: 30%;
 }
 
