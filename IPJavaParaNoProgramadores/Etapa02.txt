@@ -1,0 +1,56 @@
+Java para
+no programadores
+Proyecto integrador - Etapa 2
+Java para no programadores
+
+
+
+
+  ¿Qué es el proyecto integrador?
+
+   ● Se desarrollará un proyecto a lo largo de todo el curso.
+
+   ● Permite reaﬁrmar los conocimientos adquiridos.
+
+   ● Los ejercicios se realizarán en la clase junto al profesor/a.
+Java para no programadores
+
+
+
+  Etapa 2
+   1. Por cada intento fallido, debe crear una           5. Crear un método que contenga los ciclos de
+      nueva Clave Token.                                    pregunta de las credenciales que no posea
+                                                            retorno alguno.
+   2. Realizar un método para que retorne cada
+      Clave Token.
+
+   3. La Clave Token no deberá repetirse, por lo
+      que se debe validar si ya ha sido suministrada
+      anteriormente en la misma ejecución de la
+      aplicación.
+
+   4. Crear un método que valide los datos
+      ingresados por el cliente y retorne si los datos
+      son correctos o no.
+Java para no programadores
+
+
+
+   Pantalla Usuario Bloqueado con Clave Token en cada intento
+Java para no programadores
+
+
+
+   Para trabajar en esta etapa del proyecto integrador,
+   debes haber completado los módulos 4 y 5.
+
+   Deberás incluir: Proyecto Java con una sola clase
+   llamada App.java, Arreglos, Métodos de tipo
+   Procedimiento y de tipo Función, Condicionales y Ciclos.
+
+   En la sección de Descargas encontrarás los recursos
+   necesarios para realizar los ejercicios y su resolución
+   para que veriﬁques cómo te fue.
+¡Sigamos
+trabajando!
+
